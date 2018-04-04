@@ -1,0 +1,31 @@
+.stack-view{
+  display: flex;
+  flex-direction: row;
+  height: 180rpx;
+  padding: 0 20rpx;
+  align-items: center;
+}
+
+.stack-image{
+  width: 156rpx;
+  height:116rpx;
+  border-radius: 5%;
+}
+
+.stack-title{
+  font-size: 40rpx;
+  color: #222;
+  margin-left: 40rpx;
+}
+
+.stack-num{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  font-size: 20rpx;
+  color: #9c9a9c;
+}
+
+.line{
+  border-bottom: 1rpx solid #F0F0F0;
+}

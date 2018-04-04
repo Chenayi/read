@@ -1,0 +1,7 @@
+<view class='.mine'>
+   <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"
+  background-size="cover" /> 
+  <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+
+  <text class="banquan">版权所有</text>
+</view>

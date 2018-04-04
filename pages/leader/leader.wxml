@@ -1,0 +1,17 @@
+<view class='container'>
+
+<text class='leader center'>{{leaderTitle}}</text>
+
+<scroll-view wx:for='{{leader}}' wx:key='{{index}}'>
+<navigator class='leader-nav' url='stories/stories'>
+
+
+<image src='{{item.bannerImg}}' class='leader-image'></image>
+<text class='leader-item-title'>{{item.articTitle}}</text>
+<text class='leader-item-content'>{{item.articContent}}</text>
+
+
+</navigator>
+</scroll-view>
+
+</view>

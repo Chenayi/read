@@ -1,0 +1,4 @@
+/* pages/stack/stackdetail/stackdetail.wxss */
+.booklist{
+  height: 600rpx;
+}

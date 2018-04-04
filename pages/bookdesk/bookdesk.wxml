@@ -1,0 +1,48 @@
+<view class='container'>
+  <swiper class='swiper' indicator-dots='true'>
+
+  <swiper-item>
+  <view class='image'>
+  <image src='../../assets/images/book1.png' />
+  </view>
+
+  <view class='item_content'>
+    <text class='item_title'>南风知我意</text>
+    <view class='item_read'>
+    <text class='item_read_num'>1186人在读</text>
+    <image src='../../assets/images/rg.png'></image>
+    </view>
+  </view>
+
+  </swiper-item>
+
+  <swiper-item>
+   <view class='image'>
+  <image src='../../assets/images/book2.png'/>
+  </view>
+
+  <view class='item_content'>
+    <text class='item_title'>人工智能</text>
+    <view class='item_read'>
+    <text class='item_read_num'>1193人在读</text>
+    <image src='../../assets/images/rg.png'></image>
+    </view>
+  </view>
+  </swiper-item>
+
+  <swiper-item>
+  <view class='image'>
+  <image src='../../assets/images/book3.png' />
+  </view>
+
+  <view class='item_content'>
+    <text class='item_title'>编写高质量代码：改善JavaScript程序的</text>
+    <view class='item_read'>
+    <text class='item_read_num'>86人在读</text>
+    <image src='../../assets/images/rg.png'></image>
+    </view>
+  </view>
+  </swiper-item>
+
+  </swiper>
+</view>
